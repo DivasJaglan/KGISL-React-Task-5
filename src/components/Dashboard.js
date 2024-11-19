@@ -19,15 +19,9 @@ function Dashboard() {
       <nav className="navbar">
         <h1 className="logo">MyApp</h1>
         <ul className="nav-links">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Profile</a>
-          </li>
-          <li>
-            <a href="#">Settings</a>
-          </li>
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Settings</li>
           <li>
             <button onClick={handleLogout} className="logout-button">
               Logout
